@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "SMTP_HOST": "@smtp_host",
+    "SMTP_PORT": "@smtp_port",
+    "SMTP_USER": "@smtp_user",
+    "SMTP_PASS": "@smtp_pass",
+    "SMTP_FROM": "@smtp_from"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_APP_URL": "https://your-domain.vercel.app"
+    }
+  }
+}
